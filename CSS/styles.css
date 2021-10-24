@@ -1,0 +1,274 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#ceb8ef, #44748f);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    padding-top: 20px;
+}
+
+#nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-width: none;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #1d5a72;
+    padding-top: 25px;
+}
+
+a:hover {
+    color: #eeeeee;
+}
+
+a:active {
+    color: #cccccc;
+}
+
+li a {
+    color: #c590ef;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-weight: medium;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-color: #eeeeee;
+}
+
+
+.leftmarginkelp {
+    margin-left: 2%;
+    margin-right: 80%
+}
+
+h1 {
+    /*title*/
+    color: #c590ef;
+    font-size: 40px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+h2 {
+    /*title subheader*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    float: right;
+    color: #c590ef;
+    margin-top: 300px;
+}
+
+h3 {
+    /* header*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 22pt;
+    color: #eeeeee;
+}
+}
+
+h4 {
+    /*subheaders*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    color: #c590ef;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 11.5pt;
+    color: #55b7ce;
+    font-weight: 500;
+    line-height: 25px
+}
+
+#homecontainer {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 730px;
+    background-image: url(../images/homepagebackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+#hometitle {
+    position: relative;
+    color: #c590ef;
+    font-size: 57px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    margin-top: 500px;
+    margin-bottom: 200px;
+    width: 500px;
+    float: right;
+}
+#hometitle p {
+    color: #c590ef;
+    font-size: 23.5px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
+
+#aboutcontainer {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background-image: url(../images/aboutbackground.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+
+
+#abouttitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 650px;
+    float: left;
+
+}
+#abouttitle p {
+    font-family: 'Montserrat';
+    font-size: 11.5pt;
+    color: #55b7ce;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 20px;
+    float: left;
+    max-width: 610px;
+
+}
+
+#featurescontainer {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background-image: url(../images/features.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#ouruserscontainer {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/ourusersbackground.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+/* #ouruserscontainer {
+    position: relative;
+    background-image: url(../images/ourusersbackground.png);
+    width: 100%;
+    height: 1000px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+
+#ouruserstitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+#ouruserssubtitle1 {
+/*
+    position: absolute;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    color: #c590ef;
+    top: 17%;
+    left: 33%;
+*/
+}
+
+#ouruserssubtitle2 {
+/*
+    position: absolute;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    color: #c590ef;
+    top: 30%;
+    right: 6%;
+*/
+}
+
+#timelinecontainer {
+    position: relative;
+}
+
+#timeline {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding-top: 45px;
+}
+#partnerwithuscontainer {
+    position: relative;
+}
+
+.partnerwithusbackground {
+    position: relative;
+    margin-right: 8%;
+}
+
+#partnerwithustitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+#meettheteamcontainer {
+    position: relative;
+}
+
+.meettheteambackground {
+    position: relative;
+    margin-left: 25%;
+
+}
+
+#meettheteamtitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+    position: absolute;
+    top: 7%;
+    left: 39%;
+}
+
+
