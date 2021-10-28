@@ -1,0 +1,664 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#ceb8ef, #44748f);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    padding-top: 25px;
+}
+.homebutton{
+    float: left;
+    margin-left: 15%;
+    margin-top: -0.5%;
+}
+#nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-width: none;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #1d5a72;
+    padding-top: 5px;
+    padding-right: 4%;
+
+}
+
+a:hover {
+    color: #eeeeee;
+}
+
+a:active {
+    color: #cccccc;
+}
+
+li a {
+    color: #c590ef;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+li {
+    display: inline;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-weight: medium;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-color: #eeeeee;
+}
+
+
+.leftmarginkelp {
+    margin-left: 2%;
+    margin-right: 80%;
+}
+
+h1 {
+    /*title*/
+    color: #c590ef;
+    font-size: 40px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+h2 {
+    /*title subheader*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    float: right;
+    color: #c590ef;
+    margin-top: 300px;
+}
+
+h3 {
+    /* header*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 22pt;
+    color: #eeeeee;
+}
+}
+
+h4 {
+    /*subheaders*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    color: #c590ef;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 11.5pt;
+    color: #73D5E7;
+    font-weight: 500;
+    line-height: 25px;
+}
+#homecontainer {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 730px;
+    background-image: url(../images/homepagebackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#hometitle {
+    position: relative;
+    color: #c590ef;
+    font-size: 57px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    margin-top: 35%;
+    margin-bottom: 7.75%;
+    width: 500px;
+    float: right;
+}
+#hometitle p {
+    color: #c590ef;
+    font-size: 23.5px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
+
+#aboutcontainer {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    float: left;
+    background-image: url(../images/aboutbackground.png);
+    background-size: 87%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+
+
+#abouttitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 6%;
+    margin-left: 21%;
+    width: 650px;
+    float: left;
+
+}
+#abouttitle p {
+    font-family: 'Montserrat';
+    font-size: 11.5pt;
+    color: #73D5E7;
+    font-weight: 500;
+    line-height: 170%;
+    margin-top: 5%;
+    float: left;
+    max-width: 610px;
+
+}
+
+#featurescontainer {
+    position: relative;
+     padding-top: 300px;
+    background-image: url(../images/features.png);
+    width: 100%;
+    height: 600px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-position: right;
+}
+
+#ouruserscontainer {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    padding-top: 200px;
+    background-image: url(../images/ourusersbackground.png);
+    background-position: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    float: right;
+}
+#ouruserstitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 10%;
+    margin-left: 28%;
+    max-width: 1080px:
+    float: left;
+}
+
+#ouruserssubtitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    color: #c590ef;
+    top: 17%;
+    left: 33%;
+}
+#ourusers1{
+    margin-top:2%;
+    max-width: 420px;
+}
+
+#ourusers2{
+   margin-top: -35%;
+    max-width: 420px; 
+    margin-left: 55%;
+    float: top;
+}
+
+ #timelinecontainer {
+    position: relative;
+     padding-top: 200px;
+    background-image: url(../images/timeline.png);
+    width: 100%;
+    height: 1200px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-position: right;
+}
+
+#partnerwithuscontainer {
+    position: relative;
+    background-image: url(../images/partnerwithusbackground.png);
+    width: 100%;
+    height: 950px;
+    float: right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+}
+
+#partnerwithustitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 10%;
+    margin-right: 19%;
+    max-width: 400px;
+    width: 650px;
+    float: right;
+}
+
+#partnerwithustitle p {
+    font-family: 'Montserrat';
+    font-size: 11.5pt;
+    color: #73D5E7;
+    font-weight: 500;
+    line-height: 170%;
+    margin-top: 5%;
+    max-width: 610px;
+
+}
+
+#meettheteamcontainer {
+    position: relative;
+    background-image: url(../images/meettheteambackground.png);
+    width: 100%;
+    height: 950px;
+    float: left;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+}
+
+#meettheteamtitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 2%;
+    margin-left: 21%;
+    width: 650px;
+    float: left;
+
+}
+#meettheteamtitle p {
+    font-family: 'Montserrat';
+    font-size: 11.5pt;
+    color: #73D5E7;
+    font-weight: 500;
+    line-height: 170%;
+    margin-top: 5%;
+    float: left;
+    max-width: 400px;
+
+}
+
+ #footer {
+    position: relative;
+     padding-top: 200px;
+    background-image: url(../images/footer.png);
+    width: 100%;
+    height: 780px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-position: right;
+}
+#footertitle {
+    position: relative;
+    color: #c590ef;
+    font-size: 70px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    margin-top: 40%;
+    margin-left: 37%;
+    width: 500px;
+    float: center;
+}
+
+#mobilehomecontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobilehomebackground.png);
+    width: 375px;
+    height: 900;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+#mobilehometitle {
+    position: relative;
+    color: #c590ef;
+    font-size: 55px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    margin-top: 150%;
+    width: 350px;
+    margin-left:6%;
+}
+#mobilehometitle p {
+    color: #c590ef;
+    font-size: 22.5px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+#mobileaboutcontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobileaboutbackground.png);
+    width: 375px;
+    height: 1275;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+#mobileabouttitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 7%;
+    margin-left: 15%;
+    width: 300px;
+    float: left;
+
+}
+#mobileabouttitle p {
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    color: #73D5E7;
+    font-weight: 500;
+    margin-top: 7%;
+    float: left;
+    max-width: 300px;
+    line-height: 140%;
+
+}
+#mobilefeaturescontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobilefeaturesbackground.png);
+    width: 375px;
+    height: 780px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#mobileouruserscontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobileourusersbackground.png);
+    width: 375px;
+    height: 1800px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+#mobileouruserstitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 7%;
+    margin-left: 15%;
+    width: 300px;
+    float: left;
+}
+
+#mobileouruserssubtitle {
+    color: #c590ef;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 13pt;
+    font-weight: 700;
+    margin-top: 7%;
+    width: 300px;
+    float: left;
+}
+
+#mobileouruserstitle p{
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    color: #73D5E7;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 5%;
+    float: left;
+    max-width: 300px;
+    line-height: 140%;
+}
+#mobiletimelinecontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobiletimeline.png);
+    width: 375px;
+    height: 790px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#mobilemeettheteamcontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobilemeettheteambackground.png);
+    width: 375px;
+    height:950px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+#mobilemeettheteamtitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 12%;
+    margin-left: 15%;
+    width: 300px;
+    float: left;
+
+}
+#mobilemeettheteamtitle p {
+    font-family: 'Montserrat';
+    font-size: 10.5pt;
+    color: #73D5E7;
+    font-weight: 500;
+    margin-top: 9%;
+    float: left;
+    max-width: 300px;
+    line-height: 140%;
+
+}
+
+
+#mobilepartnerwithuscontainer {
+    position: relative;
+    background-image: url(../images/mobile/mobilepartnerwithusbackground.png);
+    width: 375px;
+    height: 550px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+#mobilepartnerwithustitle {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-top: 12%;
+    margin-left: 15%;
+    width: 300px;
+    float: left;
+
+}
+#mobilepartnerwithustitle p {
+    font-family: 'Montserrat';
+    font-size: 10.5pt;
+    color: #73D5E7;
+    font-weight: 500;
+    margin-top: 5%;
+    float: left;
+    max-width: 300px;
+    line-height: 140%;
+
+}
+#mobilefootercontainer {
+    position: relative;
+    background-image: url(../images/footer.png);
+    width: 375px;
+    height: 250px;
+    float: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+#mobilefootertitle {
+    position: relative;
+    color: #c590ef;
+    font-size: 30px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 700;
+    margin-top: 50%;
+    margin-left: 27%;
+    float: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+        #body { 
+        width: 375px;
+        }
+        #homecontainer {
+            display: none;
+        }
+        #aboutcontainer {
+            display: none;
+        }
+        #featurescontainer {
+            display: none;
+        }
+        #ouruserscontainer {
+            display: none;
+        }
+        #timelinecontainer {
+            display: none;
+        }
+        #meettheteamcontainer {
+            display: none;
+        }
+        #partnerwithuscontainer {
+            display: none;
+        }
+        #footer {
+            display: none;
+        }
+        #mobilehomecontainer {
+            display: block;
+        }
+        #mobileaboutcontainer {
+            display: block;
+        }
+        #mobilefeaturescontainer {
+            display: block;
+        }
+        #mobileouruserscontainer {
+            display: block;
+        }
+        #mobiletimelinecontainer {
+            display: block;
+        }
+        #mobilemeettheteamcontainer {
+            display: block;
+        }
+        #mobilepartnerwithuscontainer {
+            display: block;
+        }
+        #mobilefootercontainer {
+            display: block;
+
+    }
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 375px;
+}
+
+.topnav {
+    position: fixed;
+    width: 375px;
+    text-align: center;
+    background-color: #1d5a72;
+    color: white;
+    font-family: helvetica, sans-serif;
+}
+
+.topnav a {
+    display: inline-block;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-top: 7%;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#nav_bar .icon {
+  display: none;
+}
+
+/* this is where you can design mobile version */
+@media screen and (max-width: 640px) {
+  .topnav a:not(:first-child) {display: none;}
+    .topnav a:first-child {
+        float:left;
+        padding-left: 20px;
+    }
+  .topnav a.icon, #nav_bar a.icon {
+    float: right;
+    display: block;
+  }   
+  .topnav.responsive {
+      position: relative;
+    }
+    
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+  }
+    
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+  }
+    }
