@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=MuseoModerno:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- JavaScript JQuery and smooth scrolling code here-->
@@ -20,7 +21,14 @@
             window.scrollTo(0, window.pageYOffset - 70);
         }
         window.addEventListener('hashchange', addMargin);
-
+function myFunction() {
+  var x = document.getElementById("nav_bar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
     </script>
 </head>
 
@@ -30,14 +38,13 @@
         <div id="nav_bar">
             <nav>
                 <ul>
-                    <li><a href="#homecontainer">home</a></li>
-                    <!--broken//-->
+                    <div class="homebutton"><li><a href="#homecontainer"><img src="images/logo.png" height="40px" width="60px"></a></li></div>
                     <li><a href="#aboutcontainer">about</a></li>
                     <li><a href="#featurescontainer">features</a></li>
                     <li><a href="#ouruserscontainer">our users</a></li>
                     <li><a href="#timelinecontainer">timeline</a></li>
-                    <li><a href="#partnerwithuscontainer">partner with us</a></li>
                     <li><a href="#meettheteamcontainer">meet the team</a></li>
+                    <li><a href="#partnerwithuscontainer">partner with us</a></li>
                 </ul>
             </nav>
         </div>
@@ -58,47 +65,90 @@
     </div>
 
 
-    <!-- <div id="ouruserscontainer">
+<div id="ouruserscontainer">
         <div id="ouruserstitle">Our Users
-        <div id="ouruserssubtitle1">Kelp Restoration Coordinator</div>
-        <div id="ouruserssubtitle2">Marine Technology Coordinator</div>
-        <div id="ouruserstext1">
-            <p>Morgan Murphy-Cannella is the Kelp Restoration Coordinator for the California division of ReefCheck. Reefcheck is an organization dedicated to the care and preservation of reef communities, and working towards kelp forest restoration. As Kelp Restoration Coordinator, it is Morgan’s responsibility to monitor the purple sea urchin populations and coordinate dives for their removal.<br><br> Due to cold temperatures and harsh conditions, the number of cold water divers are fewer compared to more tropical waters. In addition, the area affected and the sheer number of the purple sea urchin populations render removal a time consuming task for the divers coordinated by Morgan.<br><br>As a result, when Morgan became aware of the Sea Forester, she decided it would be effective in moderating the populations of the purple sea urchins and has begun successfuly implementing them into ReefCheck’s Kelp Restoration Program.</p>
-        </div>
-        <div id="ouruserstext2">
+        <div id="ourusers1"><div id="ouruserssubtitle">Kelp Restoration Coordinator</div>
+                 <p>Morgan Murphy-Cannella is the Kelp Restoration Coordinator for the California division of ReefCheck. Reefcheck is an organization dedicated to the care and preservation of reef communities, and working towards kelp forest restoration. As Kelp Restoration Coordinator, it is Morgan’s responsibility to monitor the purple sea urchin populations and coordinate dives for their removal.<br><br> Due to cold temperatures and harsh conditions, the number of cold water divers are fewer compared to more tropical waters. In addition, the area affected and the sheer number of the purple sea urchin populations render removal a time consuming task for the divers coordinated by Morgan.<br><br>As a result, when Morgan became aware of the Sea Forester, she decided it would be effective in moderating the populations of the purple sea urchins and has begun successfuly implementing them into ReefCheck’s Kelp Restoration Program.</p></div>
+        <div id="ourusers2"><div id="ouruserssubtitle">Marine Technology Coordinator</div>
             <p>Crans Squire is the Marine Technology Coordinator for the Noyo Center for Marine Science. The Noyo Center for Marine Science has formed a collaborative team on the North Coast to begin clearing the purple sea urchins from the Mendocino and Sonoma coasts by creating a kelp “refuge” area.<br><br>Crans holds the responsibility of obtaining certain technology that aid the Noyo Center for Marine Science’s many projects. While doing research on which technology would be most beneficial to the Help the Kelp initiative, Crans discovered that the Sea Forester was designed to help the very problem that they are trying to solve.<br><br>By using the Sea Forester to help clear the purple sea urchins from the Mendocino and Sonoma coasts, the kelp in the area will have a chance to grow and reproduce at a regular rate. The specimen collected by the Sea Forester may support the development of a commercial market for the purple sea urchins.</p>
         </div>
-        </div></div>-->
+    </div></div>
     
-    <!-- Timeline starts here-->
+    <!-- Timeline starts here -->
     <div id="timelinecontainer">
-        <div id="timeline"><img src="images/timeline.png"></div>
-    </div>
-    
-    <!-- Partners with us starts here-->
-    <div id="partnerwithuscontainer">
-        <div class="partnerwithusbackground">
-<!--            <img src="images/partnerwithusbackground.png">-->
         </div>
-        <div id="partnerwithustitle">Partner With Us</div>
-        <div id="partnerwithustext">
-            <p>Help us continue to fund production and implementation of the Sea Forester for
-                affected Kelp Forests. </p>
+      <div id="meettheteamcontainer"><div id="meettheteamcontainer"><div id="meettheteamtitle">Meet the Team
+        <p>Get to know the faces behind the invention of the Sea Forester! We are a team of passionate individuals who want to see the natural beauty of the Northern California Kelp Forests restored.</p> </div></div>
         </div>
-    </div>
-    
-    
-    <div id="meettheteamcontainer">
-        <div class="meettheteambackground">
-<!--            <img src="images/meettheteambackground.png">-->
-        </div>
-        <div id="meettheteamtitle">Meet the Team</div>
-        <div id="meettheteamtext">
-            <p>Get to know the faces behind the invention of the Sea Forester!</p>
-        </div>
-    </div>
 
-    <!--        </div>-->
+    <!-- Partners with us starts here -->
+    <div id="partnerwithuscontainer"><div id="partnerwithustitle">Partner With Us
+        <p>Contact us in order to implement the Sea Forester in your kelp restoration efforts. For more details, fill out the information form below.</p> </div></div>
+     <!-- footer starts here -->
+    <div id="footer"><div id="footertitle">Sea Forester
+       </div>
+        </div>
+    
+    <!-- MOBILE CONTENT -->
+     <!-- mobile home starts here -->
 
+            
+<div id="mobilehomecontainer">
+      <div id="container"><div id="nav_bar" class="topnav">
+           <a href="#mobilehomecontainer"><img src="images/logo.png"  height= 40px; width="60px;"></a>
+            <a href="#mobileaboutcontainer">about</a>
+            <a href="#mobilefeaturescontainer">features</a>
+            <a href="#mobileouruserscontainer">our users</a>
+            <a href="#mobiletimelinecontainer">timeline</a>
+            <a href="#mobilemeettheteamcontainer">meet the team</a>
+            <a href="#mobilepartnerwithuscontainer">partner with us</a>
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+          </a></div></div>
+    <div id="mobilehometitle">Sea Forester
+       <p>caring for our oceanic woods</p> </div>
+    </div>
+   
+    <!-- mobile about starts here -->
+    <div id="mobileaboutcontainer">
+         <div id="mobileabouttitle">About <p>Rising global temperatures are causing a decrease in the natural predator of the purple sea urchin which is causing the populations of the purple sea urchins to grow. An overabundance of purple sea urchins is severely threatening kelp forests in northern California. As a result, 95% of kelp forests have been decimated. Recent methods of removal by scuba divers or the reintegration of sea otters have proven to be unable to keep up with the overwhelming populations of the purple sea urchins. (NPR)<br><br><br><br><br>The Sea Forester is a submersible vessel with the purpose of reining in the population of the purple sea urchins to a sustainable level, in order to provide an opportunity for the kelp forests to regrow. By autonomously moving through the ocean using a GPS system, the Sea Forester scans the seafloor for purple sea urchins using its camera system that to detect purple sea urchins. The Sea Forester removes them using mechanical arms and places the urchins into a collection chamber and returns to the surface to be removed once the chamber is full. For maximum efficacy, multiple Sea Foresters work in tandem in alternating groups, allowing for continual removal of sea urchins while vessels recharge.<br><br><br><br><br><br>The purple sea urchins collected are repurposed for compost or sold to individuals to be raised and sold for food. The Sea Forester has been able to maintain an optimum population balance since 2026, ensuring that kelp forests can return to their former state without completely eradicating the purple sea urchin population.</p>
+            </div>
+    </div>
+    
+    <!-- mobile features starts here -->
+    <div id="mobilefeaturescontainer">
+        </div>
+    
+    <!-- mobile our users starts here -->
+    <div id="mobileouruserscontainer">
+        <div id="mobileouruserstitle">Our Users
+        <div id="mobileouruserssubtitle">Kelp Restoration Coordinator</div><p>Morgan Murphy-Cannella is the Kelp Restoration Coordinator for the California division of ReefCheck, an organization dedicated to working towards kelp forest restoration. It is Morgan’s responsibility to monitor the purple sea urchin populations and coordinate dives for removal.<br><br>Due to cold temperatures and harsh conditions, the number of cold water divers are fewer compared to more tropical waters. In addition, the area affected and the sheer number of the purple sea urchin populations render removal a time consuming task for the divers coordinated by Morgan.<br><br>When Morgan became aware of the Sea Forester, she decided that it would be effective in moderating the populations of the purple sea urchins and began implementing them into Reef Check’s Kelp Restoration Program.</p>
+        <div id="mobileouruserssubtitle"><br><br><br><br><br><br><br><br>Marine Technology Coordinator</div>
+        <p>Crans Squire is the Marine Technology Coordinator for the Noyo Center for Marine Science. The Noyo Center for Marine Science has formed a collaborative team on the North Coast to begin clearing the purple sea urchins from the Mendocino and Sonoma coasts by creating a kelp “refuge” area.<br><br>Crans holds the responsibility of obtaining technology that aids the Noyo Center for Marine Science’s many projects. While doing research on technology would be most beneficial to the Help the Kelp initiative, Crans discovered that the Sea Forester was designed to help the very problem that they are trying to solve.<br><br>Using the Sea Forester to help clear the purple sea urchins from the Mendocino and Sonoma coasts, the kelp in the area will have a chance to grow and reproduce at a regular rate. The specimen collected by the Sea Forester may support the development of a commercial market for the purple sea urchins.</p></div>
+        </div>
+    
+     <!-- mobile timeline starts here -->
+    <div id="mobiletimelinecontainer"></div>
+    
+    <!-- mobile meet the team starts here -->
+    <div id="mobilemeettheteamcontainer">
+         <div id="mobilemeettheteamtitle">Meet the Team
+        <p>Get to know the faces behind the invention of the Sea Forester! We are a team of passionate individuals who want to see the natural beauty of the Northern California Kelp Forests restored.</p> </div>
+        </div>
+    
+    <!-- mobile partner with us starts here -->
+    <div id="mobilepartnerwithuscontainer">
+        <div id="mobilepartnerwithustitle">Partner With Us
+        <p>Contact us in order to implement the Sea Forester in your kelp restoration efforts. For more details, fill out the information form below.</p> </div>
+        </div>
+    
+    <!-- mobile footer starts here -->
+    <div id="mobilefootercontainer">
+        <div id="mobilefootertitle">Sea Forester
+       </div>
+        </div> 
+    
+
+  
 
 </body>
